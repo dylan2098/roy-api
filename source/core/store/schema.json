@@ -1,0 +1,23 @@
+{
+    "required": [
+        "address_1",
+        "city",
+        "email",
+        "phone_1"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "address_1": {
+            "type": "string"
+        },
+        "city": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "phone_1": {
+            "type": "string"
+        }
+    }
+}

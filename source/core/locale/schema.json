@@ -1,0 +1,23 @@
+{
+    "required": [
+        "country",
+        "name",
+        "currencyCode",
+        "symbol"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "country": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "currencyCode": {
+            "type": "string"
+        },
+        "symbol": {
+            "type": "string"
+        }
+    }
+}

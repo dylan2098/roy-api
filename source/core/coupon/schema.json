@@ -1,0 +1,15 @@
+{
+    "required": [
+        "code",
+        "type"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "code": {
+            "type": "string"
+        },
+        "type": {
+            "type": "integer"
+        }
+    }
+}

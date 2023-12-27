@@ -1,0 +1,44 @@
+{
+    "PORT": 5000,
+    "ENVIRONMENT": "development",
+    "PROJECT_NAME": "Roy",
+    "SECRET_KEY": "ROYSHOP",
+    "MAIL": {
+        "HOST": "smtp.gmail.com",
+        "PORT": 587,
+        "USER": "tringuyen20101998bb@gmail.com",
+        "PASSWORD": "eaaoqdcjtfbfnend"
+    },
+    "CLOUD_DINARY": {
+        "CLOUD_NAME": "dvweth7yl",
+        "KEY": "429776856742478",
+        "SECRET": "OITKAXtTvSaKLL-zA0wlGVWNN4A",
+        "ENV_VARIABLE": "CLOUDINARY_URL=cloudinary://429776856742478:OITKAXtTvSaKLL-zA0wlGVWNN4A@dvweth7yl",
+        "BASE_DELIVERY_URL": "http://res.cloudinary.com/dvweth7yl",
+        "URL_UPLOAD_VIDEO": "https://api.cloudinary.com/v1_1/dvweth7yl/video/upload",
+        "URL_UPLOAD_IMAGE": "https://api.cloudinary.com/v1_1/dvweth7yl/image/upload",
+        "FOLDER_UPLOAD": "n3got5z5"
+    },
+    "EXPIRESIN": "10d",
+    "MAX_AGE": 2,
+    "GEN_SALT": 10,
+    "LIST_API": [
+        "users",
+        "group",
+        "locale",
+        "siteconfig",
+        "catalog",
+        "category",
+        "pricebook",
+        "product",
+        "product-price",
+        "store",
+        "service",
+        "registered-product",
+        "orders",
+        "cart",
+        "coupon",
+        "customer-address",
+        "shipping"
+    ]
+}

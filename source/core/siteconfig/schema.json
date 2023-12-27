@@ -1,0 +1,15 @@
+{
+    "required": [
+        "name",
+        "key"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "key": {
+            "type": "string"
+        }
+    }
+}

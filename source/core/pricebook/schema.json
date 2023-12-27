@@ -1,0 +1,15 @@
+{
+    "required": [
+        "currencyCode",
+        "name"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "currencyCode": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        }
+    }
+}

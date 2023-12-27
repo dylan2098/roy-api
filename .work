@@ -1,0 +1,42 @@
+hashid: 
+    7: AoLJxQ76Yr
+    8: 6o5JK1DKGq
+    1: x3OXaO7KNz
+token customer: 8
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjgsImlhdCI6MTYyNTkzOTc1NiwiZXhwIjoxNjI2ODAzNzU2fQ.gstjiB3mlcUsa9_wJ2qtadaIEnzzQCKik35sAQxp0Wc
+
+token: admin
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTYyNTkyOTYxNywiZXhwIjoxNjI2NzkzNjE3fQ.4QjX1njGMUzDLSGd7immppyiKO8WsBlSDKHcJ_VsGg8
+
+
+// cong viec
++ Order
++ Shipping
++ Invoice
++ Shipping Order
++ Shipping
++ Coupon
++ Coupon User
++ Payment Transaction
+
+
+
+function appendToUrl(url, params) {
+    var newUrl = url;
+    newUrl += (newUrl.indexOf('?') !== -1 ? '&' : '?') + Object.keys(params).map(function (key) {
+        return key + '=' + encodeURIComponent(params[key]);
+    }).join('&');
+
+    return newUrl;
+}
+
+
+https://stackoverflow.com/questions/47630163/axios-post-request-to-send-form-data
+
+
+When click submit payment
+- The first time: 
+    + Add Order: 
+        - Order No: Random String cannot repeat again
+        - Add Order Item into table OrderItem
+        - Create invoice

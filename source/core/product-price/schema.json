@@ -1,0 +1,27 @@
+{
+    "required": [
+        "productId",
+        "pricebookId",
+        "basePrice",
+        "grossPrice",
+        "netPrice"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "productId": {
+            "type": "integer"
+        },
+        "pricebookId": {
+            "type": "integer"
+        },
+        "basePrice": {
+            "type": "string"
+        },
+        "grossPrice": {
+            "type": "string"
+        },
+        "netPrice": {
+            "type": "string"
+        }
+    }
+}

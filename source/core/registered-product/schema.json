@@ -1,0 +1,27 @@
+{
+    "required": [
+        "productId",
+        "storeId",
+        "name",
+        "email",
+        "phone"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "productId": {
+            "type": "integer"
+        },
+        "storeId": {
+            "type": "integer"
+        },
+        "name": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "phone": {
+            "type": "string"
+        }
+    }
+}

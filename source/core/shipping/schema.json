@@ -1,0 +1,35 @@
+{
+    "required": [
+        "orderId",
+        "shippingNo",
+        "grossPrice",
+        "status",
+        "invoiceNumber",
+        "orderItem",
+        "orderNo"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "orderId": {
+            "type": "integer"
+        },
+        "shippingNo": {
+            "type": "string"
+        },
+        "grossPrice": {
+            "type": "string"
+        },
+        "status": {
+            "type": "integer"
+        },
+        "invoiceNumber": {
+            "type": "string"
+        },
+        "orderItem": {
+            "type": "text"
+        },
+        "orderNo": {
+            "type": "string"
+        }
+    }
+}

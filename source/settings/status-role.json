@@ -1,0 +1,14 @@
+{
+    "users": {
+        "role": {
+            "admin": 1,
+            "customer": 2
+        },
+        "status": {
+            "disabled": 0,
+            "enabled": 1,
+            "locker": 2,
+            "deleted": 3
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "required": [
+        "currencyCode",
+        "customerEmail",
+        "customerName",
+        "customerLocaleID"
+    ],
+    "additionalProperties": true,
+    "properties": {
+        "currencyCode": {
+            "type": "string"
+        },
+        "customerEmail": {
+            "type": "string"
+        },
+        "customerName": {
+            "type": "string"
+        },
+        "customerLocaleID": {
+            "type": "string"
+        },
+        "createdBy": {
+            "type": "string"
+        }
+    }
+}
